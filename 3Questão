@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+    int i;
+    int a;
+    printf("Digite um numero:");
+    scanf("%d", &i);
+  do{
+      printf("Tente acertar bobalhao:");
+      scanf("%d", &a);
+  }while(i!=a);
+  printf("Acertou o numero digitado %d", i);
+}
