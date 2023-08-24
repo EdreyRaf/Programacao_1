@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+    int i;
+  do{
+    printf("Digite um numero:");
+    scanf("%d", &i);
+  } while(i<1||i>100);
+}
