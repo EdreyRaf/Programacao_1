@@ -1,0 +1,16 @@
+#include <stdio.h>
+int i;
+int a=1;
+int main(void)
+{
+  printf("Digite um valor:");
+  scanf("%d", &i);
+  
+   while (a <= i)
+  {
+    printf("%d %d\n ", a, i-a+1);
+    a++;
+  }  
+ 
+  return 0;
+}
