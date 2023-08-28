@@ -1,0 +1,13 @@
+#include <stdio.h>
+int a;
+int main()
+{
+    printf("Digite um ano:");
+    scanf("\n%d", &a);
+    if(a%4==0){
+        printf("Ano Bissexto");
+    } else {
+        printf("Ano nao bissexto");
+    }
+    return 0;
+}
