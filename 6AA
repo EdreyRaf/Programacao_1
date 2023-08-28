@@ -1,0 +1,15 @@
+#include <stdio.h>
+int a, b, c;
+int main()
+{
+    printf("Digite a sua idade ");
+    scanf("\n%d", &a);
+    if(a<70&&a>=18){
+        printf("Seu voto é obrigatório");
+    } else if(a<16){
+        printf("Voce não pode votar");
+    } else {
+        printf("Seu voto é opcional");
+    }
+    return 0;
+}
