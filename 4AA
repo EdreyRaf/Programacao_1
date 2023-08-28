@@ -1,0 +1,30 @@
+#include <stdio.h>
+int a, b, c;
+int main()
+{
+    printf("Digite sua idade : ");
+    scanf("%d", &a);
+    if(a>=18&&a<=67){
+        printf("Sexo: Masculino digite 1, Feminino digite 2: ");
+        scanf("%d", &b);
+        if(b==1){
+            printf("Digite seu peso : ");
+            scanf("%d", &c);
+                if(c>59){
+                   printf("Seus dados estao aptos para doação");
+                } else{
+                    printf("Não apto por nao atender o peso minimo");
+                }
+            } 
+        if(b==2)
+            printf("Digite seu peso : ");
+            scanf("%d", &c);
+                if(c>49){
+                   printf("Seus dados estao aptos para doação");
+                } else{
+                    printf("Não apto por nao atender o peso minimo");
+                }
+        } else {
+            printf("\nnão tem idade para doar sangue ", c);
+        }
+}
