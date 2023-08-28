@@ -1,0 +1,14 @@
+#include <stdio.h>
+int a;
+int main()
+{
+    printf("Digite o um numero: ");
+    scanf("%d", &a);
+    if(a==0){
+            printf("\nO numero é zero ");
+        } else if (a%2==0){
+            printf("\nO numero %d é par", a);
+        } else {
+            printf("\nO numero %d é impar", a);
+        }
+}
