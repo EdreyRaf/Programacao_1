@@ -1,0 +1,16 @@
+#include <stdio.h>
+int a, b;
+int main()
+{
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &a);
+    printf("\nDigite o segundo numero: ");
+    scanf("%d", &b);
+    if(a==b){
+            printf("\nOs numeros sao iguais ");
+        } else if (a<b){
+            printf("\nO numero %d é maior que o %d em %d unidades", b, a, b-a);
+        } else {
+            printf("\nO numero %d é maior que o %d em %d unidades", a, b, a-b);
+        }
+}
