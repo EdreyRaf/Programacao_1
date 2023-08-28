@@ -4,7 +4,7 @@ int main()
 {
     printf("Digite o tamanho dos lados do triangulo ");
     scanf("\n%d %d %d", &a, &b, &c);
-    if(a=b && b=c &&a=c){
+    if(a==b && b==c &&a==c){
         printf("Triangolo Equilátero");
     } else if(a!=b&&b!=c&&c!=a){
         printf("Triangolo Escaleno");
