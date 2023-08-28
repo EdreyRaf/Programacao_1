@@ -1,0 +1,26 @@
+#include <stdio.h>
+int a, b, c;
+int main()
+{
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &a);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &b);
+    printf("Digite o terceiro numero: ");
+    scanf("%d", &c);
+    if(a>b&&a>c){
+            printf("\nO numero maior é %d ", a);
+        } else if (b>a&&b>c){
+            printf("\nO numero maior é %d ", b);
+        } else {
+            printf("\nO numero maior é %d ", c);
+        }
+        
+        if(a<b&&a<c){
+            printf("\nO numero menor é %d ", a);
+        } else if (b<a&&b<c){
+            printf("\nO numero menor é %d ", b);
+        } else {
+            printf("\nO numero menor é %d ", c);
+        }
+}
