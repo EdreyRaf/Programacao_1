@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("Digite uma letra: ");
+    scanf("\n%s", &a);
+    
+    switch(a){
+        case('a'):
+            printf("é Vogal");
+            break;
+        case('e'):
+            printf("é Vogal");
+            break;
+        case('i'):
+            printf("é Vogal");
+            break;
+        case('o'):
+            printf("é Vogal");
+            break;
+        case('u'):
+            printf("é Vogal");
+            break;
+        default:
+            printf("é Consoante");
+    }   
+}
