@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    do{
+    printf("Digite um mes: ");
+    scanf("\n%d", &a);
+    }while(a<1||a>12);
+    if(a<=7&&a%2!=0||a>=8&&a%2==0){
+        printf("Tem 31 dais");
+    } else if(a==2){
+        printf("Tem 28 ou 29 dais");
+    } else {
+        printf("Tem 30 dais");
+    }
+}
