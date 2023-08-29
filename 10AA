@@ -1,0 +1,24 @@
+#include <stdio.h>
+int a,b,c;
+int main()
+{
+    printf("Digite os numeros: ");
+    scanf("\n%d %d", &a, &b);
+    printf("Para: soma:1 subitração:2 multiplicacao:3 divisao:4");
+    scanf("\n%d", &c);
+    switch(c){
+        case(1):
+            printf("%d+%d = %d", a, b, a+b);
+            break;
+        case(2):
+            printf("%d-%d = %d", a, b, a-b);
+            break;
+        case(3):
+            printf("%dx%d = %d", a, b, a*b);
+            break;
+        case(4):
+            printf("%d/%d = %d", a, b, a/b);
+            break;
+    }   
+        return 0;
+}
