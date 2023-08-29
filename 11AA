@@ -1,0 +1,31 @@
+#include <stdio.h>
+char a;
+
+int main()
+{
+    printf("Digite os numeros: ");
+    scanf("\n%s", &a);
+    
+    switch(a){
+        case('A'):
+            printf("Exelente");
+            break;
+        case('B'):
+            printf("Ótimo");
+            break;
+        case('C'):
+            printf("Bom");
+            break;
+        case('D'):
+            printf("Regular");
+            break;
+        case('E'):
+            printf("Ruim");
+            break;
+        case('F'):
+            printf("Nos vemos ano que vem!");
+            break;
+        default:
+            printf("Conceito Inexistente");
+    }   
+}
